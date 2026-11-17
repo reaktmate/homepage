@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ゆのせ | 動画編集・サムネイル制作</title>
+  <meta name="description" content="動画編集とサムネイル制作をしているゆのせのポートフォリオサイトです。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <header class="header" id="top">
+    <div class="inner header-inner">
+      <a href="#home" class="logo">ゆのせ</a>
+      <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#home">HOME</a>
+        <a href="#works">WORKS</a>
+        <a href="services.html">SERVICES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="inner">
+        <p class="hero-label">VIDEO EDITING / THUMBNAIL</p>
+        <h1 class="hero-title">学生グループを<br>裏方で支えます</h1>
+        <p class="hero-text">
+          ゆのせです。動画編集とサムネイル制作をやっています。<br>
+          中学生・高校生のグループの活動を、裏方として支えます。
+        </p>
+        <div class="hero-buttons">
+          <a href="#works" class="btn btn-main">制作実績を見る</a>
+          <a href="services.html" class="btn btn-sub">受けられる業務</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+<section class="section section-tint" id="works">
+  <div class="inner">
+    <div class="section-head">
+      <p class="section-en">WORKS</p>
+      <h2 class="section-title">制作実績</h2>
+    </div>
+
+    <p class="contact-lead">
+      制作実績は、別のポートフォリオサイトにまとめています。<br>
+      下のボタンから見られます。
+    </p>
+
+    <!-- href を自分のポートフォリオサイトのURLに書き換えてください -->
+    <a href="https://www.foriio.com/yunosebora" class="btn btn-main" target="_blank" rel="noopener">ポートフォリオを見る</a>
+  </div>
+</section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="inner">
+        <div class="section-head">
+          <p class="section-en">ABOUT</p>
+          <h2 class="section-title">プロフィール</h2>
+        </div>
+
+        <div class="about">
+          <div class="about-icon" aria-hidden="true">ゆ</div>
+          <div class="about-body">
+            <h3 class="about-name">ゆのせ</h3>
+            <p class="about-text">
+              動画編集とサムネイル制作をしています。<br>
+              まだ技術力が乏しいため、基本無償で受け付けています。
+            </p>
+            <dl class="about-list">
+              <div><dt>できること</dt><dd>動画編集 / サムネイル制作</dd></div>
+              <div><dt>使用ソフト</dt><dd>Adobe Premiere Pro / After Effect / Photshop</dd></div>
+              <div><dt>活動</dt><dd>裏方</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-tint" id="contact">
+      <div class="inner">
+        <div class="section-head">
+          <p class="section-en">CONTACT</p>
+          <h2 class="section-title">依頼・ご連絡はこちらから</h2>
+        </div>
+
+        <p class="contact-lead">
+          ご依頼やご相談は、下のリンクからご連絡ください。<br>
+          料金や注意事項は<a href="services.html" class="text-link">SERVICES</a>のページに書いています。
+        </p>
+
+        <!--
+          リンク先を自分のものに書き換えてください。
+          使わないものは <li> ごと消し、増やしたいときは <li> をコピーして追加します。
+        -->
+        <ul class="link-grid">
+          <li>
+            <a href="https://x.com/YunoseVola_" class="link-card" target="_blank" rel="noopener">
+              <span class="link-card-name">X</span>
+              <span class="link-card-id">@YunoseVola_</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://discord.com/users/1350809927731511320" class="link-card" target="_blank" rel="noopener">
+              <span class="link-card-name">Discord</span>
+              <span class="link-card-id">@yunose_vola</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="inner footer-inner">
+      <p>&copy; <span id="year">2026</span> ゆのせ</p>
+      <a href="#top" class="to-top">ページの上へ</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
